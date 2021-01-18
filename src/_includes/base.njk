@@ -10,11 +10,16 @@
     <link rel="stylesheet" href="/style.css?v={% version %}"/>
     {% block head %}{% endblock %}
     <script src="/js/alpine.js?v={% version %}"></script>
+    
 </head>
-<body>
+<body data-barba="wwrapper" class="font-brand bg-brand-500">
     {% block content %}
     {{ content | safe }}
     {% endblock %}
-    <script src="/script.js" type="module" defer></script>
+   
+
+    {% block scripts %}
+    
+    {% endblock %}
 </body>
 </html>

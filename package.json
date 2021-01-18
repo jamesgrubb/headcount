@@ -16,22 +16,25 @@
   ],
   "author": "James Grubb",
   "license": "ISC",
-  "bugs": {
-    
-  },
+  "bugs": {},
   "homepage": "https://github.com/jamesgrubb/headcount#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
+    "@animxyz/core": "^0.3.0",
+    "@barba/css": "^2.1.15",
     "autoprefixer": "^10.2.1",
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.1",
     "postcss-custom-properties": "^10.0.0",
     "postcss-import": "^14.0.0",
     "postcss-nested": "^5.0.3",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "tailwindcss-filters": "^3.0.0",
+    "typeface-raleway": "^1.1.13"
   },
   "devDependencies": {
     "alpinejs": "^2.8.0",
-    "html-minifier": "^4.0.0"
+    "html-minifier": "^4.0.0",
+    "tailwindcss-blend-mode": "^1.0.0"
   }
 }

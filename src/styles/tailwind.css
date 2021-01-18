@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Six+Caps&family=Ultra&display=swap');
+@import '@animxyz/core';
+@include xyz-all;
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.bubble.tl {
+	--grid-area: 1 / 1 / 2 / 3;
+	display: block;
+}
+.bubble.tr {
+	--grid-area: 1 / 2 / 2 / 4;
+	display: block;
+}
+.bubble.br {
+	--grid-area: 3 / 2 / 4 / 4;
+	display: block;
+}
+.bubble.bl {
+	--grid-area: 3 / 1 / 4 / 3;
+	display: block;
+}
+
+.bubble {
+	grid-area: var(--grid-area);
+}
